@@ -4,10 +4,9 @@ const fs = require('fs');
 
 const pathsToRemove = ['./.git', './NEW-PROJECT.js'];
 
-function removePath(path, callback) {
+function removePath(path) {
   rimraf(path, error => {
     if (error) throw new Error(error);
-    callback();
   });
 }
 

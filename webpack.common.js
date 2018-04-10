@@ -2,7 +2,7 @@ const path = require('path');
 const BundleSize = require('webpack-bundle-size-analyzer').WebpackBundleSizeAnalyzerPlugin;
 
 module.exports = {
-  entry: '.client/src/index',
+  entry: './client/src/index',
   output: {
     path: path.resolve(__dirname, 'client/dist'),
     filename: 'bundle.js'

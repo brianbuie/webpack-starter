@@ -2,7 +2,7 @@
 import rimraf from 'rimraf';
 import fs from 'fs';
 
-const pathsToRemove = ['./.git', './CLEAN.js'];
+const pathsToRemove = ['./.git', './NEW-PROJECT.js'];
 
 function removePath(path, callback) {
   rimraf(path, error => {

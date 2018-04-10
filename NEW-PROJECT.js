@@ -2,7 +2,7 @@
 const rimraf = require('rimraf');
 const fs = require('fs');
 
-const pathsToRemove = ['./.git', './NEW-PROJECT.js'];
+const pathsToRemove = ['./.git', './NEW-PROJECT.js', './README.md'];
 
 function removePath(path) {
   rimraf(path, error => {

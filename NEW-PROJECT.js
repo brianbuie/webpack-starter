@@ -21,4 +21,4 @@ function removePackageJsonScriptEntry(scriptName) {
 
 pathsToRemove.map(path => removePath(path));
 removePackageJsonScriptEntry('new-project');
-console.log(chalkSuccess('New Project ready. You should git init!'));
+console.log('New Project ready. You should git init!');

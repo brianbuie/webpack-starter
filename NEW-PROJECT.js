@@ -1,6 +1,6 @@
 // This script removes .git, this file, and new-project entry in package.json
-import rimraf from 'rimraf';
-import fs from 'fs';
+const rimraf = require('rimraf');
+const fs = require('fs');
 
 const pathsToRemove = ['./.git', './NEW-PROJECT.js'];
 
